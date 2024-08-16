@@ -151,6 +151,35 @@ Un motor de contenedores que ejecuta en el sistema operativo administra el ciclo
 
 Dockers
 -
+Es un entorno de contenerización más usado por los desarrolladores.
 
+Los contenedores los podemos ejecutar en nuestro propio bare metal, también máquinas virtuales.\
+Docker Compose es una herramienta que permite ejecutar varios contenedores con un mismo engine.\
+Kubernetes es un orquestador de contenedores y es el más poderoso
+![kubernetes](kubernetes.png)
 
-hola pupi
+Monolito
+-
+- Ventajas: Performance, ya que un mismo proceso de servidor de aplicación es posible acceder a toda la funcionalidad del backend.
+- Desventajas: Para aplicaciones de gran tamaño es muy dificil comunicar nuevas funciones y se hace cada vez más complejo el monolito.
+
+Caching
+-
+La idea es mantener respuestas a consultas repetidas en el caché asi evitar el return repetido desde la base de datos y la renderización de la respuesta.\ 
+Se ocupa una base de datos no relacional, Redis (Remote Dictionary Server).\
+Ver PPT clase 3 de ejemplos de codigo.
+
+Las bases de datos relacionales tienen uan aquitectura dificil y que el desarrollador debe entender, a pesar de esto ayuda a mejorar el rendimiento, ya que optimiza las consultas.
+
+![bases_de_datos](bases_de_datos.png)
+
+Faltas para bases de datos relacionales:
+- Falta de indexación en columnas claves.
+- Abuso de comodines.
+- Columnas innecesarias.
+- Uniones no optimizadas.
+- Consultas anidadas no optimas.
+- No usar consultas no preparadas.
+- No analizar los planes de ejecución.
+- Evitar el operador OR.
+
