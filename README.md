@@ -183,3 +183,39 @@ Faltas para bases de datos relacionales:
 - No analizar los planes de ejecución.
 - Evitar el operador OR.
 
+--
+clase 19/8
+
+### IPhone
+Fue una revolución en el tema de teléfonos ya que cambió el tema de la pantalla y el hacer aplicaciones, fué un hito en la web móvil moderna. Algo sorprendente fue que se podia usar safari en el celular que era el mismo del computador. Desde este celular se podia usar sin ningún problema JS, CSS y HTML para las aplicaciones y empezó a surgir las aplicaciones responsive que son adaptadas para las pantallas del celular y las del computador. RWD (Responsive Web Design).
+
+Lo que se ocupa para diseñar las aplicaciones es CSS flexbox. Tiene dos ejes y es especifico de celulares.
+
+El prototipado es algo importante en el diseño de aplicación, permite hacer supuestos y ver como falla y como organizar algo, lo más importante es que uno puede ver como puede quedar el resultado final.
+
+Figma y Axure son las dos plataformas
+
+#### Componentes reactivos
+
+son bibliotecas de frontend que ayudan a enlazar datos. Hoy en día se actualizan los datos via oneway.
+
+### React
+es una librería para interfaces de usuario. Diseña vistas simples para cada estado en la app y rendizara y actualizara eficientemente los componentes.
+![libro](libro_guia.png)
+
+Este es el libro guia.
+````Javascript
+const Hello = () => (
+    <p>Hello,world</p>
+)
+
+````
+Ejemplo de React con JSX
+
+JSX en React es una extención de JS que se parece a HTML que es mejor para hacer codigos de app móviles.
+El libro muestra código de JavaScript que son buena práctica.
+
+Ver en la practica lo que son los props y los callback.
+
+
+
